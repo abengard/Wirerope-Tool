@@ -1,0 +1,6 @@
+﻿Option Explicit
+
+Private Sub Workbook_Open()
+    Application.WindowState = xlMinimized
+    WireRopeTool.Show
+End Sub
